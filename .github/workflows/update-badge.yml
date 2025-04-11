@@ -20,7 +20,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Generate SVG
         run: |
-          python generate_badge.py
+          python .github/workflows/generate_badge.py
 
       - name: Commit changes
         run: |
