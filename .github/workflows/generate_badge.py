@@ -4,7 +4,7 @@ from datetime import datetime
 counter = 0
 with open("counter.txt", "rw") as a:
   counter = int(a.read())
-  counter++
+  counter = counter + 1
   a.write(counter)
 
 date = datetime.now().strftime("%d.%m.%Y")
