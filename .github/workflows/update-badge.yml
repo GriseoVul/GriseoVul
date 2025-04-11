@@ -29,5 +29,6 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@gihub.com"
           git add badge.svg
+          git add counter.txt
           git commit -m "Update badge"
           git push
