@@ -2,11 +2,18 @@ import requests
 from datetime import datetime
 
 counter = 0
-with open("counter.txt", "rw") as a:
-  counter = int(a.read())
-  counter = counter + 1
-  a.write(counter)
+try:
+  with open("counter.txt", "r") as f:
+    counter = int(f.read())
+except(FileNotFoundError):
+  with open("counter.txt", "W") as f:
+    f.write(str(counter))
 
+counter = counter + 1
+
+with open("counter.txt", "W") as f:
+    f.write(str(counter))
+  
 date = datetime.now().strftime("%d.%m.%Y")
 
 svg = f'''
