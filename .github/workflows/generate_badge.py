@@ -40,11 +40,10 @@ def generate_svg(number):
 '''
     return svg_content
 
-def save_svg(number, filename="output.svg"):
+def save_svg(number, filename="badge.svg"):
     svg = generate_svg(number)
     with open(filename, "w") as file:
         file.write(svg)
-    print(f"SVG сохранен в файл {filename}")
 
 
 save_svg(counter)
