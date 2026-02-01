@@ -13,5 +13,5 @@
   <rect x="0%" y="16%" width="50%" height="70%" rx="20" ry="20" fill="url(#a)" mask="url(#b)"/>
   <text x="20%" y="52%" fill="#fff" stroke="#000" stroke-width=".4" font-size="22" text-anchor="middle" dominant-baseline="middle">Km rolled</text>
   <rect id="number_bkg" x="41%" y="1" width="120" height="60" rx="30" ry="30" fill="#fff"/>
-  <text x="54%" y="51%" fill="url(#a)" stroke="#000" stroke-width=".4" font-size="22" text-anchor="middle" dominant-baseline="middle">468803</text>
+  <text x="54%" y="51%" fill="url(#a)" stroke="#000" stroke-width=".4" font-size="22" text-anchor="middle" dominant-baseline="middle">468843</text>
 </svg>
